@@ -4,7 +4,7 @@
     box-sizing: border-box;
     width: 200px;
     height: 420px;
-    background-color: rgb(20, 91, 133);
+    background-color: rgb(30, 82, 160);
     border-radius: 10px;
     padding: 20px;
     border-bottom: 150px solid rgb(8, 9, 56);
@@ -83,7 +83,7 @@
     height: 200px;
     background-color: rgb(13, 13, 78);
     padding: 20px;
-    border-top: 30px solid rgb(231, 172, 11);
+    border-top: 30px solid rgb(201, 156, 33);
     border-radius: 10px;
 
 }
