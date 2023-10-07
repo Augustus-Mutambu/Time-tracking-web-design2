@@ -1,0 +1,105 @@
+.firstcolumn {
+    grid-row: span 2;
+    color: white;
+    box-sizing: border-box;
+    width: 200px;
+    height: 420px;
+    background-color: rgb(20, 91, 133);
+    border-radius: 10px;
+    padding: 20px;
+    border-bottom: 150px solid rgb(8, 9, 56);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+.secondcolumn {
+    color: white;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(13, 13, 78);
+    padding: 20px;
+    border-top: 30px solid rgb(214, 93, 23);
+    border-radius: 10px;
+
+}
+
+
+.thirdcolumn {
+    color: white;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(13, 13, 78);
+    padding: 20px;
+    border-top: 30px solid rgb(51, 168, 223);
+    border-radius: 10px;
+
+}
+
+.forthcolumn {
+    color: white;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(13, 13, 78);
+    padding: 20px;
+    border-top: 30px solid rgb(122, 40, 47);
+    border-radius: 10px;
+
+}
+
+
+.fifthcolumn {
+    color: white;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(13, 13, 78);
+    padding: 20px;
+    border-top: 30px solid rgb(81, 218, 115);
+    border-radius: 10px;
+
+}
+
+.sixthcolumn {
+    color: white;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(13, 13, 78);
+    padding: 20px;
+    border-top: 30px solid rgb(219, 117, 189);
+    border-radius: 10px;
+
+}
+
+.seventhcolumn {
+    color: white;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(13, 13, 78);
+    padding: 20px;
+    border-top: 30px solid rgb(231, 172, 11);
+    border-radius: 10px;
+
+}
+#firsttext{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridcontainer {
+    background-color: black;
+    width: 860px;
+    padding: 100px;
+    display: grid;
+    grid-template-areas:
+        "firstcolumn secondcolumn thirdcolumn forthcolumn"
+        "firstcolumn fifthcolumn sixthcolumn seventhcolumn";
+    gap: 20px;
+    
+}
